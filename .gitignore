@@ -1,0 +1,12 @@
+**/*.log
+*.log
+
+my_outputs/
+apsp/apsp
+apsp/main
+
+prefix_sum/main
+prefix_sum/prefix_sum
+
+softmax/main
+softmax/softmax

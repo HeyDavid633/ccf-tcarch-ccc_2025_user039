@@ -2,11 +2,11 @@ HIPCC = hipcc
 
 TARGET = apsp
 
-SRCS = main.cpp 
+SRCS = main.cpp kernel.hip
 
 HEADERS = main.h
 
-CXXFLAGS = -O2
+CXXFLAGS = -O2 -w
 
 all: $(TARGET)
 
