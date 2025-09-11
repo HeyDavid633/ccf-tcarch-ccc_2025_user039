@@ -1,6 +1,6 @@
 #include "main.h"
 
-constexpr int BLOCK_SIZE = 512;
+constexpr int BLOCK_SIZE = 256;
 
 __global__ void block_scan_kernel(const int* input, int* temp_output, int* block_sums, int N) {
     extern __shared__ int sdata[];
